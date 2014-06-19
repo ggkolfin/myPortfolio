@@ -1,0 +1,19 @@
+@charset "utf-8";
+html,body{ height: 100%; background-color: #f1eaee; font-family: 'Droid Serif', serif; color: #505051; }
+body {margin-top: 7%; }
+#holder{ position:relative; overflow: hidden; }
+#wrapDiv1{ height: 30%; width: 100%; padding: 10px; padding-top: 3%; }
+#wrapDiv2{ height: 50%; width: 100%; padding: 10px; padding-bottom: 7%; margin-left: 10%; }
+#headerDiv { width: 50%; height: 15%; float: left; margin-right: 0%; margin-bottom: 10%; display: inline-block; }
+#cornerDiv { width: 50%; height: 15%; float: right; margin-left: 0%; margin-bottom: 10%; display: inline-block; }
+#home { margin-left: 14%; color: #505051; font-size:2.8em; text-decoration: none; } 
+#home:hover {color: #00b200; font-family: 'Calligraffitti', cursive; text-decoration: none; }
+#home:visited {color: #505051; }
+#cvLink { margin-left: 45%; text-decoration: none; color: #505051; }
+#contactLink { margin-left: 7%; text-decoration: none; color: #505051; }
+#contactLink:hover { color: #0066ff; }
+#cvLink:hover { color: #0066ff; }
+#contactLink:visited {color: #505051; }
+#cvLink:visited {color: #505051; }
+h3 { margin-left: 15%; }
+#footerDiv { position: absolute; bottom: 0; left: 0; width:100%; height: 7%; background-color: #0066ff; color:#ffffff; font-size:0.75em; }

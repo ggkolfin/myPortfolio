@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{ background-color: #f1eaee; font-family: 'Droid Serif', serif; color: #505051; }
+body { margin: 0; padding: 0; height: 100%; }
+#holder{ position:relative; overflow: hidden; }
+#wrapDiv1{ height: 15%; width: 100%; padding: 10px; padding-top: 7%; }
+#headerDiv { width: 50%; height: 15%; float: left; margin-right: 0%; display: inline-block; }
+#cornerDiv { width: 50%; height: 15%; float: right; margin-left: 0%; display: inline-block; }
+h1 { margin-left: 14%; font-size:2.8em; }
+h3 { margin-left: 15%; }
+#wrapDiv2{ height: 50%; width: 100%; padding: 10px; padding-bottom: 7%; position:relative;  }
+#photoDiv { width: 50%; float: left; margin-right: 0%; margin-bottom: 100px; display: inline-block; }
+#linksDiv { width: 50%; float: right; margin-left: 0%; margin-bottom: 100px; display: inline-block; }
+#navigationLinks {color: #ff0066; text-decoration:none; font-size:1.38em; }
+#navigationLinks:visited {color: #ff0066; }
+#navigationLinks:hover {color: #00b200; font-family: 'Rock Salt', cursive; }
+#navigationLinks:active {color: #ff0066; }
+#footerDiv { position: absolute;  bottom: 0; left: 0; width:100%; height:7%; background-color: #0066ff; color:#ffffff; font-size:0.75em; }
